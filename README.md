@@ -35,7 +35,7 @@ Origin software could be found in [crnn-pytorch](https://github.com/Holmeyoung/c
   
 
 ## Feature
-
+```sh
 - Variable length
 
   It support variable length.
@@ -46,25 +46,19 @@ Origin software could be found in [crnn-pytorch](https://github.com/Holmeyoung/c
 
   I change it to `binary mode` when reading the key and value, so you can use it to do Chinese OCR.
 
-
-
 - Change CTCLoss from [warp-ctc](https://github.com/SeanNaren/warp-ctc) to [torch.nn.CTCLoss](https://pytorch.org/docs/stable/nn.html#ctcloss)
 
   I change the loss function to `torch.nn.CTCLoss` .
-
-  
 
 - Variable image_height
 
   At present, image_height=32, it is fixed.Now it can be set as 64 or lager.
 
-
-
 - Bug fixed and no lmdb
 
   Bug has been fixed.
-
 ```
+
 
 ## Train your data
 
