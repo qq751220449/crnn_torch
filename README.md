@@ -26,10 +26,10 @@ Origin software could be found in [crnn-pytorch](https://github.com/Holmeyoung/c
 
   
 
-  Expected output
+- Expected output
   
   ```sh
-['YY3333AA220011------00---22233---0--0011'] => ['Y3A201023001']  
+  ['YY3333AA220011------00---22233---0--0011'] => ['Y3A201023001']  
   ```
   
   
